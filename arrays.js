@@ -33,7 +33,9 @@ function addElementToEndOfArray(array, element) {
  cities =  addElementToEndOfArray(cities, "New Orleans") */
   
 function  destructivelyAddElementToEndOfArray(array, element) {
-   return array.push(element)
+  var temp2 = [];
+  temp2[] = array[];
+   return temp2.push(element)
   }
  cities =  destructivelyAddElementToEndOfArray(cities, "Dallas")
   

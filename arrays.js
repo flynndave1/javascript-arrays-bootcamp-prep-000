@@ -33,7 +33,7 @@ function addElementToEndOfArray(array, element) {
  cities =  addElementToEndOfArray(cities, "New Orleans")
   
 function  destructivelyAddElementToEndOfArray(array, element) {
-   array =  array.push(element)
+   array =  array
  return array
   }
  cities =  addElementToEndOfArray(cities, "Dallas")

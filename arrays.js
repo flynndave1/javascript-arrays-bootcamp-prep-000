@@ -60,8 +60,7 @@ function  destructivelyAddElementToEndOfArray(array, element) {
   
   
     function destructivelyRemoveElementFromEndOfArray  (array)  {
-     array.pop();
-         return array;
+           return array.pop();
   }
     destructivelyRemoveElementFromEndOfArray(cities())
   

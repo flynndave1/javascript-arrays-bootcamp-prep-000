@@ -24,13 +24,13 @@ cities = [... cities, "Austin"];*/
 /* function destructivelyAddElelementToBeginningOfArray(array, element){
       return array.unshift(element);
     }
-cities =    destructivelyAddElelementToBeginningOfArray(cities , "St. Louis") */
+cities =    destructivelyAddElelementToBeginningOfArray(cities , "St. Louis") 
     
 function addElementToEndOfArray(array, element) {
     array =  array.push(element)
     return array
   }
- cities =  addElementToEndOfArray(cities, "New Orleans")
+ cities =  addElementToEndOfArray(cities, "New Orleans") */
   
 function  destructivelyAddElementToEndOfArray(array, element) {
    return array.push(element)

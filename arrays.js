@@ -66,8 +66,8 @@ function  destructivelyAddElementToEndOfArray(array, element) {
   
   
   function removeElementFromEndOfArray (array)  {
-    temp1 = array
-     temp1 = temp1.pop()
+   /* temp1 = array */
+     array = temp1.pop()
     return temp1;
   }
 removeElementFromEndOfArray(cities)

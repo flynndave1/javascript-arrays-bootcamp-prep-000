@@ -22,8 +22,7 @@ cities = [... cities, "Austin"];*/
  temp = addElementToBeginningOfArray(cities , "Chicago")
  
  function destructivelyAddElelementToBeginningOfArray(array, element){
-   array
-   return array.unshift(element);
+      return array.unshift(element);
     }
 cities =    destructivelyAddElelementToBeginningOfArray(cities , "St. Louis")
     
